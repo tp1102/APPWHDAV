@@ -59,14 +59,53 @@
 
     <TableLayout
         android:layout_width="380dp"
-        android:layout_height="530dp"
+        android:layout_height="525dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scanbtn"
         app:layout_constraintVertical_bias="0.0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="30dp"
+                android:text="BookingNumber"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:text="Wires"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/rltBknb"
+                android:layout_width="190dp"
+                android:layout_height="495dp"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/rltWr"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+        </TableRow>
     </TableLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
